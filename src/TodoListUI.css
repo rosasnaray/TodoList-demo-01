@@ -1,0 +1,13 @@
+@import "~antd/dist/antd.css";
+
+.TodoListUI{
+    margin: 10px;
+}
+.listInput{
+    margin-right:10px;
+    width:250px;
+}
+.listBox{
+    margin:10px;
+    width:300px;
+}

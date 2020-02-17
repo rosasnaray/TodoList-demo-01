@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## TodoList-Redux学习Demo
 
-### `npm start`
+    demo简单展示如何在React中使用Redux、Redux中间件：redux-thunk及axios。
+    本demo为jspang的Redux教学视频的课后练习，并根据自身理解进行了一些优化。
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 主要实现功能：
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+    1、展示初始list：使用axios请求接口获取数据。接口地址： https://www.fastmock.site/mock/d68f6b337244f4644f8a7b41afd84c62/demo01/api/getListData
+    2、添加任务：点击添加按钮，把输入框内添加的值加入到list中，并清空表单数据
+    3、删除任务:点击列表中某一项任务进行删除操作
 
-### `npm test`
+### 如何执行：
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    **1、克隆项目到本地，进入项目根目录**
+    ```
+        git clone git@github.com:chenjun1127/react-redux-todolist.git
+        cd react-redux-todolist
+    ```
 
-### `npm run build`
+    **2、安装依赖**
+    ```
+       npm install
+    `
+    **3、启动项目**
+    ` npm start`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    **4、打开浏览器访问地址： <http://localhost:3000/>**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
